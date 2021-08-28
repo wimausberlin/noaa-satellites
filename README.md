@@ -5,6 +5,7 @@ What we call Earth selfie is an image taking from an earth observation (EO) sate
 
 In this part, we will create an antenna more or less advanced.
 ## Materials
+
 - Aluminium cable (1m50)
 - Stick of wood
 - Chock block
