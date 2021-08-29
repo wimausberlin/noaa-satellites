@@ -33,6 +33,10 @@ $$
 
 hel
 # Software
+Satellite tracking software : *sudo apt update && sudo apt install gpredict*
+Define Radio Receiver Software : [GQRX](https://gqrx.dk/download/install-ubuntu)
+Audio to image conversion software : [NOAA-APT](https://github.com/martinber/noaa-apt/releases/download/v1.3.0/noaa-apt_1.3.0-1_amd64.deb)
+
 
 # References
 
