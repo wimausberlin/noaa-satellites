@@ -31,11 +31,19 @@ $$
 
 ### Helical antenna
 
-hel
+Hell yeah
+
+### Double cross antenna
+
+A great antenna with good efficiency for low elevations and omnidirectional capabilities without requiring a rotor.[[3]](#3)
+
 # Software
-Satellite tracking software : *sudo apt update && sudo apt install gpredict*
-Define Radio Receiver Software : [GQRX](https://gqrx.dk/download/install-ubuntu)
-Audio to image conversion software : [NOAA-APT](https://github.com/martinber/noaa-apt/releases/download/v1.3.0/noaa-apt_1.3.0-1_amd64.deb)
+
+The basic 3 packages you need to record a transmission and obtain an image !
+
+- Satellite tracking software : *sudo apt update && sudo apt install gpredict*
+- Define Radio Receiver Software : [GQRX](https://gqrx.dk/download/install-ubuntu)
+- Audio to image conversion software : [NOAA-APT](https://github.com/martinber/noaa-apt/releases/download/v1.3.0/noaa-apt_1.3.0-1_amd64.deb)
 
 
 # References
@@ -43,3 +51,5 @@ Audio to image conversion software : [NOAA-APT](https://github.com/martinber/noa
 <a  id="1">[1]</a> Khan, Abdul & Bilal, Anas. (2016). Various Types of Antenna with Respect to their Applications: A Review.
 
 <a  id="2">[2]</a> Adam, Greger (2019). DIY 137 MHz APT Weather satellite antenna – Or, do we need a circular polarization?
+
+<a  id="3">[3]</a> BLANCO GUTIERREZ, Andrea (2015). 2014 Reception of weather images, [Choice and design / Version 18](https://sourceforge.isae.fr/projects/reception-of-weather-images/wiki/_Choice_and_design/18)
