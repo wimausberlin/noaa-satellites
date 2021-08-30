@@ -1,7 +1,6 @@
 # How to take an Earth selfie ?
 
 What we call Earth selfie is an image taking from an earth observation (EO) satellite closed to our position. Would you like to make it for less than 50$? In this tutoriel, we will explain in detail how to built a DIY performaned antenna (**hardware**) and how to obtain a clear image after decoding the incoming signal (**software**).
-test
 
 # Hardware
 
