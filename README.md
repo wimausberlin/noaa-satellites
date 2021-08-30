@@ -55,4 +55,3 @@ The basic 3 packages you need to record a transmission and obtain an image !
 
 <a  id="3">[3]</a> BLANCO GUTIERREZ, Andrea (2015). 2014 Reception of weather images, [Choice and design / Version 18](https://sourceforge.isae.fr/projects/reception-of-weather-images/wiki/_Choice_and_design/18)
 
-Salut
