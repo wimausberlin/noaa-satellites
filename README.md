@@ -1,6 +1,7 @@
 # How to take an Earth selfie ?
 
-What we call Earth selfie is an image taking from an earth observation (EO) satellite closed to our position. Would you like to make it for less than 50$? In this tutoriel, we will explain in detail how to built a DIY performaned antenna (**hardware**) and how to obtain a clear image after decoding the incoming signal (**software**).
+What we call Earth selfie is an image taking from an earth observation (EO) satellite closed to our position. Would you like to make it for less than 50$? In this tutoriel, we will explain in detail how to built a DIY performaned antenna (**hardware**) and how to obtain a clear image after decoding the incoming signal (**software**). This tutoriel will explain you the technology behind the radio waves as below.
+![Alt Text](https://en.wikipedia.org/wiki/Radio_wave#/media/File:Dipole_receiving_antenna_animation_6_800x394x150ms.gif)
 
 # Hardware
 
