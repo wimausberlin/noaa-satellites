@@ -1,14 +1,18 @@
 # How to take an Earth selfie ?
 
-What we call Earth selfie is an image taking from an earth observation (EO) satellite closed to our position. Would you like to make it for less than 50$? In this tutoriel, we will explain in detail how to built a DIY performaned antenna (**hardware**) and how to obtain a clear image after decoding the incoming signal (**software**). This tutoriel will explain you the technology behind the radio waves as below.
-![Alt Text](https://upload.wikimedia.org/wikipedia/commons/d/dd/Dipole_receiving_antenna_animation_6_800x394x150ms.gif)
+### Abstract
+**What we call Earth selfie is an image taking from an earth observation (EO) satellite closed to our position. Would you like to make it for less than 50$? In this tutoriel, we will explain in detail how to built a DIY performaned antenna (hardware) and how to obtain a clear image after decoding the incoming signal (software). This tutoriel will explain you the technology behind the radio waves as below.**
+<p align="center">
+  <img src=https://github.com/wimausberlin/noaa-satellites/blob/main/antenna.gif alt=animated>
+</p>
+
+### Context
+Nowadays, we are arounded 
 
 # Hardware
-
 In this part, we show the different types of antennas more or less advanced and how to built them. The only materials that you will need are as follows:
 
 ### Materials
-
 - Aluminium cable (1m50)
 - Stick of wood
 - Chock block
@@ -18,10 +22,9 @@ In this part, we show the different types of antennas more or less advanced and 
 - Computer on Linux
 
 ## Antennas
-
 The antennas are of various kinds and having different characteristics according to the need of signal reception [[1]](#1). They transform radio waves into electrical signal and vice versa. In this tutorial, we will only listen to radio waves in the purpose to observe the Earth from a satellite.
-### V-dipole antenna
 
+### V-dipole antenna
 The most simpliest antenna that you can create is the V-dipole. You just have to take two aluminium rods connected to a choc block in order to obtain a "V-shape". You bend the dipole legs to create a 120° angle.
 For the length of the rod, it is importent to know the dipole length. The classic formula for calculation of the length of a half-wavelength dipole:
   $$
@@ -31,15 +34,12 @@ $$
 >  **Note** The length of the each leg should include the connecting wire's length up tothe coaxial connector or coax. Keep this length as short as possible but it will be difficultto stay bellow 1.5 cm.
 
 ### Helical antenna
-
 Hell yeah
 
 ### Double cross antenna
-
 A great antenna with good efficiency for low elevations and omnidirectional capabilities without requiring a rotor.[[3]](#3)
 
 # Software
-
 The basic 3 packages you need to record a transmission and obtain an image !
 
 - Satellite tracking software : *sudo apt update && sudo apt install gpredict*
