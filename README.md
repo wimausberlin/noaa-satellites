@@ -7,7 +7,7 @@
 </p>
 
 ### Context
-Nowadays, we are arounded 
+Electromagnetic waves were, are and will be all around us. Nowadays, lot of devices are interconnected and generate more and more waves. It can be radio waves coming from satellites, micro waves or X-ray waves. Some satellites 
 
 # Hardware
 In this part, we show the different types of antennas more or less advanced and how to built them. The only materials that you will need are as follows:
