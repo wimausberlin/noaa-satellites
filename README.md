@@ -1,13 +1,13 @@
 # How to take an Earth selfie ?
 
 ### Abstract
-**What we call Earth selfie is an image taking from an earth observation (EO) satellite closed to our position. Would you like to make it for less than 50$? In this tutoriel, we will explain in detail how to built a DIY performaned antenna (hardware) and how to obtain a clear image after decoding the incoming signal (software). This tutoriel will explain you the technology behind the radio waves as below.**
+**What we call Earth selfie is an image taking from an earth observation (EO) satellite closed to our position. Would you like to make it for less than 50$? In this tutorial, we will explain in detail how to build a DIY performed antenna (hardware) and how to obtain a clear image after decoding the incoming signal (software). This tutorial will explain to you the technology behind the radio waves as below.**
 <p align="center">
   <img src=https://github.com/wimausberlin/noaa-satellites/blob/main/antenna.gif alt=animated>
 </p>
 
 ### Context
-Electromagnetic waves were, are and will be all around us. Nowadays, lot of devices are interconnected and generate more and more waves. It can be radio waves coming from satellites, micro waves or X-ray waves. Some satellites 
+Electromagnetic waves were, are, and will be all around us. Nowadays, more and more devices generate waves. It can be for example radio waves coming from satellites, microwaves or X-ray waves. The nice part of the radio waves is that they can be easily read with just an antenna and a software-defined radio (SDR). This tutorial will especially work with the NOAA satellites (transmitting APT weather pictures in the frequency range of 137-138 MHz). These spacecraft were for the first time launched more than 40 years ago. They are still in space and send data! The only question now is how to collect and treat them properly?
 
 # Hardware
 In this part, we show the different types of antennas more or less advanced and how to built them. The only materials that you will need are as follows:
