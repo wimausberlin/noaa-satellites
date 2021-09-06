@@ -22,7 +22,9 @@ In this part, we show the different types of antennas more or less advanced and 
 - Computer on Linux
 
 ## Antennas
-The antennas are of various kinds and having different characteristics according to the need of signal reception [[1]](#1). They transform radio waves into electrical signal and vice versa. In this tutorial, we will only listen to radio waves in the purpose to observe the Earth from a satellite.
+Any conductor can serve as an antenna. Conductors are sensibles to the magnetic fields and convert the electromagnetic waves (that hold the signal) into a voltage which can be interpretable thanks to a SDR that make the required transformation. 
+
+There are various types of antennas that have different characteristics according to the need of signal reception [[1]](#1). They transform radio waves into electrical signal and vice versa. In this tutorial, we will only listen to radio waves in the purpose to observe the Earth from a satellite.
 
 ### V-dipole antenna
 The most simpliest antenna that you can create is the V-dipole. You just have to take two aluminium rods connected to a choc block in order to obtain a "V-shape". You bend the dipole legs to create a 120° angle.
@@ -39,13 +41,43 @@ Hell yeah
 ### Double cross antenna
 A great antenna with good efficiency for low elevations and omnidirectional capabilities without requiring a rotor.[[3]](#3)
 
+## Software Defined Radio (SDR)
+A SDR system is a configurable radiocommunication system that is performing many hardware protocols such as amplification, fitltering, analog/digital conversions, encryption or network routing. In our experience, the SDR permits to convert the Radio frequencies directly into an output signal, usable by our computer. This is notably thanks to the SDR that we can choose the frequencies we want to receive. 
+A SDR is composed of an hardware and software part. The software that we will use with our hardware SDR is called GQRW that we will see on the next part of this tutorial.
+
 # Software
 The basic 3 packages you need to record a transmission and obtain an image !
 
 - Satellite tracking software : *sudo apt update && sudo apt install gpredict*
-- Define Radio Receiver Software : [GQRX](https://gqrx.dk/download/install-ubuntu)
+- Define Radio Receiver Software : [GQRX](https://gqrx.dk/download/install-ubuntu), work on linux (use SDR Sharp for Windows)
 - Audio to image conversion software : [NOAA-APT](https://github.com/martinber/noaa-apt/releases/download/v1.3.0/noaa-apt_1.3.0-1_amd64.deb)
 
+## Gpredict
+Gpredict is a software that permits to track the satellite position in real-time and know in advance when the satellites that we are tracking will pass over our geographic region. We can also connect Gpredict to our Define Receiver Software in order to adjust in real-time our SDR network frequencies, to lower the Doppler effect.
+
+## GQRX
+GQRX is an open source software defined radio receiver for linux, with a network/frequency routing GUI. With GQRX, we will record a .wav folder from the satellites signal, that contains Earth picture data transmitted by APT (Automatic Picture Transmission). 
+
+# How information travels wirelessly
+The information transmission is possible thanks to the propagation of the waves. For example, Wi-fi, radio, cell-phones use electromagnetic waves to transport data wirelessly. The signal that contains data is in fact just a long succession of 0 and 1. But how the wave by itself transmits this binary signal?
+
+Two mains things that describe a wave are **amplitude** and **frequency**. These 2 concepts serve to transmit information : depending on their variations along the wave, we can interpretate if a bit is currently in a 0 or 1 position :
+
+<p align="center">
+  <img src=>
+</p>
+image from https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.5gtechnologyworld.com%2Fdigital-modulation-basics-part-1%2F&psig=AOvVaw2jfhtpoZF-tzvOPPZWBw4M&ust=1631005374441000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCPijpdP-6fICFQAAAAAdAAAAABA7
+
+# How Doppler effect affect our signal reception
+Doppler effect is the frequency variation of a wave, produced by the movement of the source or observer between eachother. Let's see on a satellite how works the Doppler effect:
+<p align="center">
+  <img src=>
+</p>
+image from http://maythenetforcebewithyou.weebly.com/uploads/2/5/8/9/25893902/9875947_orig.gif
+
+Let's state that the blue point represents the satellites. This drawing represent then at a non-respected scale the impact of the satellite movement on the electromagnetic wave that it produces.
+
+For example, NOAA-19 satellite move at a speed of 7.43*10³ m.s⁻¹. After a few calculs implying its frequency emission and the light speed, we found that from the receiver point of view, the frequency variation during a passage of the satellite above us is around 6800 Hz. When we kwow that with our SDR software we record in average a range of 15 000 Hz, we then deduce that the 6 800 Hz caused by Doppler effect is signifiant on the quality of the radio that we receive.
 
 # References
 
