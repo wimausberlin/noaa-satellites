@@ -64,16 +64,14 @@ The information transmission is possible thanks to the propagation of the waves.
 Two mains things that describe a wave are **amplitude** and **frequency**. These 2 concepts serve to transmit information : depending on their variations along the wave, we can interpretate if a bit is currently in a 0 or 1 position :
 
 <p align="center">
-  <img src=>
+  <img src=https://www.5gtechnologyworld.com/wp-content/uploads/2020/02/DigitalMod_pt1_fig1_Digital_modulation_waveforms_659x601.jpg.png>
 </p>
-image from https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.5gtechnologyworld.com%2Fdigital-modulation-basics-part-1%2F&psig=AOvVaw2jfhtpoZF-tzvOPPZWBw4M&ust=1631005374441000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCPijpdP-6fICFQAAAAAdAAAAABA7
 
 # How Doppler effect affect our signal reception
 Doppler effect is the frequency variation of a wave, produced by the movement of the source or observer between eachother. Let's see on a satellite how works the Doppler effect:
 <p align="center">
-  <img src=>
+  <img src=http://maythenetforcebewithyou.weebly.com/uploads/2/5/8/9/25893902/9875947_orig.gif>
 </p>
-image from http://maythenetforcebewithyou.weebly.com/uploads/2/5/8/9/25893902/9875947_orig.gif
 
 Let's state that the blue point represents the satellites. This drawing represent then at a non-respected scale the impact of the satellite movement on the electromagnetic wave that it produces.
 
